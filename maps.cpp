@@ -11,7 +11,7 @@ int main(){
     myDictionary.insert(pair <string,string>("skuma", "eskuma"));
 
 for (auto pair : myDictionary){
-    cout <<  pair.first << "  yes " + pair.second <<endl;
+    cout <<  pair.first << "  also known as  " + pair.second <<endl;
 
 }
 
